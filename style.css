@@ -1,0 +1,48 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  max-width: 1140px;
+  height: 100%;
+  background: #000;
+  background-image: url(https://swiperjs.com/demos/images/nature-2.jpg);
+  -webkit-background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+.heading {
+  font-size: 48px;
+}
+swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+
+}
+swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
